@@ -31,11 +31,9 @@ logging.basicConfig(
 log = logging.getLogger("drop_monitor")
 
 HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
-    ),
+    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1",
+    "Accept-Language": "en-US,en;q=0.9",
+}
     "Accept-Language": "en-US,en;q=0.9",
 }
 
@@ -125,7 +123,7 @@ def send_discord(name: str, url: str, site: str) -> None:
 #  new item triggers an alert immediately.
 # ──────────────────────────────────────────────
 
-SUPREME_FEED_URL = "https://www.supremenewyork.com/shop.json"
+SUPREME_FEED_URL = "https://www.supremenewyork.com/mobile_stock.json"
 SUPREME_STATE_KEY = "supreme_feed"
 
 def check_supreme() -> None:
