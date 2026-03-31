@@ -1,6 +1,6 @@
 """
 ╔══════════════════════════════════════════════════════╗
-║     DROP MONITOR — Target / Pokémon Center           ║
+║            DROP MONITOR — Target                     ║
 ╚══════════════════════════════════════════════════════╝
 """
 
@@ -65,12 +65,6 @@ PRODUCTS = [
     {
         "name": "Target — 151 Binder Collection",
         "url": "https://www.target.com/p/pok-233-mon-trading-card-game-scarlet-38-violet-151-binder-collection/-/A-89444929",
-        "site": "Target",
-        "selector": "[data-test='addToCartButton']",
-    },
-    {
-        "name": "Target — 151 Pokémon Center Elite Trainer Box",
-        "url": "https://www.target.com/p/pokemon-tcg-scarlet-violet-151-pokemon-center-elite-trainer-box/-/A-1001558942",
         "site": "Target",
         "selector": "[data-test='addToCartButton']",
     },
@@ -178,80 +172,31 @@ PRODUCTS = [
     },
 
     # ═══════════════════════════════════════════
-    #  POKÉMON CENTER — SCARLET & VIOLET 151
-    # ═══════════════════════════════════════════
-    {
-        "name": "Pokémon Center — 151 PC Elite Trainer Box",
-        "url": "https://www.pokemoncenter.com/product/290-85466/pokemon-tcg-scarlet-and-violet-151-pokemon-center-elite-trainer-box",
-        "site": "Pokémon Center",
-        "selector": "button.add-to-cart",
-    },
-    {
-        "name": "Pokémon Center — 151 Booster Bundle",
-        "url": "https://www.pokemoncenter.com/product/699-85322/pokemon-tcg-scarlet-and-violet-151-booster-bundle",
-        "site": "Pokémon Center",
-        "selector": "button.add-to-cart",
-    },
-
-    # ═══════════════════════════════════════════
-    #  POKÉMON CENTER — PRISMATIC EVOLUTIONS
-    # ═══════════════════════════════════════════
-    {
-        "name": "Pokémon Center — Prismatic Evolutions PC Elite Trainer Box",
-        "url": "https://www.pokemoncenter.com/product/100-10019/pokemon-tcg-scarlet-and-violet-prismatic-evolutions-pokemon-center-elite-trainer-box",
-        "site": "Pokémon Center",
-        "selector": "button.add-to-cart",
-    },
-    {
-        "name": "Pokémon Center — Prismatic Evolutions Booster Bundle",
-        "url": "https://www.pokemoncenter.com/product/10-10025-101/pokemon-tcg-scarlet-and-violet-prismatic-evolutions-booster-bundle-6-packs",
-        "site": "Pokémon Center",
-        "selector": "button.add-to-cart",
-    },
-    {
-        "name": "Pokémon Center — Prismatic Evolutions Super Premium Collection",
-        "url": "https://www.pokemoncenter.com/product/10-10027-101/pokemon-tcg-scarlet-and-violet-prismatic-evolutions-super-premium-collection",
-        "site": "Pokémon Center",
-        "selector": "button.add-to-cart",
-    },
-    {
-        "name": "Pokémon Center — Prismatic Evolutions Surprise Box",
-        "url": "https://www.pokemoncenter.com/product/100-10096/pokemon-tcg-scarlet-and-violet-prismatic-evolutions-surprise-box",
-        "site": "Pokémon Center",
-        "selector": "button.add-to-cart",
-    },
-
-    # ═══════════════════════════════════════════
-    #  POKÉMON CENTER — PHANTASMAL FLAMES
-    # ═══════════════════════════════════════════
-    {
-        "name": "Pokémon Center — Phantasmal Flames PC Elite Trainer Box",
-        "url": "https://www.pokemoncenter.com/product/10-10186-109/pokemon-tcg-mega-evolution-phantasmal-flames-pokemon-center-elite-trainer-box",
-        "site": "Pokémon Center",
-        "selector": "button.add-to-cart",
-    },
-    {
-        "name": "Pokémon Center — Phantasmal Flames Booster Bundle",
-        "url": "https://www.pokemoncenter.com/product/10-10191-109/pokemon-tcg-mega-evolution-phantasmal-flames-booster-bundle-6-packs",
-        "site": "Pokémon Center",
-        "selector": "button.add-to-cart",
-    },
-    {
-        "name": "Pokémon Center — Phantasmal Flames Booster Display Box",
-        "url": "https://www.pokemoncenter.com/product/10-10190-119/pokemon-tcg-mega-evolution-phantasmal-flames-booster-display-box-36-packs",
-        "site": "Pokémon Center",
-        "selector": "button.add-to-cart",
-    },
-
-    # ═══════════════════════════════════════════
-    #  POKÉMON CENTER — ASCENDED HEROES
-    #  (uncomment and add URLs once announced)
+    #  COMING TONIGHT — ADD URLS BELOW
     # ═══════════════════════════════════════════
     # {
-    #     "name": "Pokémon Center — Ascended Heroes ETB",
-    #     "url": "https://www.pokemoncenter.com/product/...",
-    #     "site": "Pokémon Center",
-    #     "selector": "button.add-to-cart",
+    #     "name": "Ah Booster Bundle",
+    #     "url": "PASTE_URL_HERE",
+    #     "site": "Target",
+    #     "selector": "[data-test='addToCartButton']",
+    # },
+    # {
+    #     "name": "Feraligatr ex Box",
+    #     "url": "PASTE_URL_HERE",
+    #     "site": "Target",
+    #     "selector": "[data-test='addToCartButton']",
+    # },
+    # {
+    #     "name": "Meganium ex Box",
+    #     "url": "PASTE_URL_HERE",
+    #     "site": "Target",
+    #     "selector": "[data-test='addToCartButton']",
+    # },
+    # {
+    #     "name": "Fat Fire Pig ex Box",
+    #     "url": "PASTE_URL_HERE",
+    #     "site": "Target",
+    #     "selector": "[data-test='addToCartButton']",
     # },
 
     # ═══════════════════════════════════════════
