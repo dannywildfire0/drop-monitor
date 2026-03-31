@@ -48,6 +48,34 @@ STATE: dict[str, str] = {}
 PRODUCTS = [
 
     # ═══════════════════════════════════════════
+    #  TARGET — TONIGHT'S DROPS 🔥
+    # ═══════════════════════════════════════════
+    {
+        "name": "Target — Ascended Heroes Booster Bundle",
+        "url": "https://www.target.com/p/-/A-95120834",
+        "site": "Target",
+        "selector": "[data-test='addToCartButton']",
+    },
+    {
+        "name": "Target — Feraligatr ex Box",
+        "url": "https://www.target.com/p/-/A-95163306",
+        "site": "Target",
+        "selector": "[data-test='addToCartButton']",
+    },
+    {
+        "name": "Target — Meganium ex Box",
+        "url": "https://www.target.com/p/-/A-95163305",
+        "site": "Target",
+        "selector": "[data-test='addToCartButton']",
+    },
+    {
+        "name": "Target — Emboar ex Box (Fat Fire Pig)",
+        "url": "https://www.target.com/p/-/A-1008581387",
+        "site": "Target",
+        "selector": "[data-test='addToCartButton']",
+    },
+
+    # ═══════════════════════════════════════════
     #  TARGET — SCARLET & VIOLET 151
     # ═══════════════════════════════════════════
     {
@@ -170,34 +198,6 @@ PRODUCTS = [
         "site": "Target",
         "selector": "[data-test='addToCartButton']",
     },
-
-    # ═══════════════════════════════════════════
-    #  COMING TONIGHT — ADD URLS BELOW
-    # ═══════════════════════════════════════════
-    # {
-    #     "name": "Ah Booster Bundle",
-    #     "url": "PASTE_URL_HERE",
-    #     "site": "Target",
-    #     "selector": "[data-test='addToCartButton']",
-    # },
-    # {
-    #     "name": "Feraligatr ex Box",
-    #     "url": "PASTE_URL_HERE",
-    #     "site": "Target",
-    #     "selector": "[data-test='addToCartButton']",
-    # },
-    # {
-    #     "name": "Meganium ex Box",
-    #     "url": "PASTE_URL_HERE",
-    #     "site": "Target",
-    #     "selector": "[data-test='addToCartButton']",
-    # },
-    # {
-    #     "name": "Fat Fire Pig ex Box",
-    #     "url": "PASTE_URL_HERE",
-    #     "site": "Target",
-    #     "selector": "[data-test='addToCartButton']",
-    # },
 
     # ═══════════════════════════════════════════
     #  SUPREME — DISABLED (blocks bots)
